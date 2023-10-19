@@ -30,7 +30,7 @@
 
 <div id="vCard">
 	<h2>👇 {$l('contact.h2')}</h2>
-	<a href="/pierre-murillo.vcard">
+	<a href="/docs/pierre-murillo.vcard">
 		<canvas id="canvas" />
 	</a>
 </div>

@@ -3,7 +3,9 @@
 </script>
 
 <div id="introducing">
-	<div><img src="/home/pierre-murillo.jpg" alt="Pierre Murillo" class="profilePicture" /></div>
+	<div>
+		<img src="/images/home/pierre-murillo.jpg" alt="Pierre Murillo" class="profilePicture" />
+	</div>
 	<div>
 		<h1><span id="salute">👋</span>{$l('home.h1')}</h1>
 		<h2>{$l('home.h2')}</h2>

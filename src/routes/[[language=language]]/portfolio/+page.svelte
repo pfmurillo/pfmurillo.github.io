@@ -1,7 +1,7 @@
 <script>
 	import { l } from '$lib/i18n';
 
-	const imageFolder = '/portfolio/';
+	const imageFolder = '/images/portfolio/';
 	const images = [
 		{
 			name: 'shrks-app.jpg',
