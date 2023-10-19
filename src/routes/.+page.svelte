@@ -17,7 +17,7 @@
 </p>
 <p>
 	{$l('home.p3')}
-	<a href="{$language}/contact" class="logo stabilo">{$l('home.contact')}</a>
+	<a href="/{$language}/contact" class="logo stabilo">{$l('home.contact')}</a>
 </p>
 
 <style>
