@@ -46,7 +46,7 @@ export const locales = {
 			"Quelque soit votre idée, je suis là pour vous accompagner à chaque étape : de la <strong>conception</strong> et du <strong>développement</strong> à l'<strong>hébergement</strong> de votre application. ",
 		'home.p2':
 			"Mon travail est guidé par le souci du <strong>détails</strong>, le respect des <strong>standards</strong> et des <strong>bonnes pratiques</strong>, notamment en terme d'accessibilité, pour un web plus <strong>inclusif</strong>.",
-		'home.p3': 'Je suis à votre dispoition si vous avez la moindre question :',
+		'home.p3': 'Je suis à votre disposition si vous avez la moindre question :',
 		'home.contact': 'contactez-moi !',
 		// portfolio
 		'portfolio.title': 'Portfolio',

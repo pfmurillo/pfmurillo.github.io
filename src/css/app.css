@@ -3,6 +3,7 @@
 @import url('lexend.css');
 
 :root {
+    -webkit-tap-highlight-color: transparent;
     --body-bgcolor: #fafafa;
     --header-bgcolor: #fcfcfc;
     --accent-color: rgb(66, 54, 54);
