@@ -64,7 +64,7 @@
 
 	@media (max-width: 680px) {
 		footer {
-			padding: 48px 0px;
+			padding: 48px 0px 64px 0px;
 		}
 	}
 </style>
