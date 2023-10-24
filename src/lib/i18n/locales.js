@@ -2,14 +2,14 @@ export const locales = {
 	en: {
 		'language.version': 'english version',
 		// global information
-		'global.title': 'Pierre, a web dev',
+		'global.title': 'Pierre, a Web Dev',
 		// navigation items
 		'nav.portfolio': 'Portfolio',
 		'nav.contact': 'Contact',
 		// home
-		'home.title': 'Web developper',
+		'home.title': 'Svelte • API REST • SQL • JWT • EVM',
 		'home.description': 'Pierre Murillo is a web developer',
-		'home.h1': "I'm Pierre, a full stack web dev",
+		'home.h1': "I'm Pierre, a full stack web developer",
 		'home.h2': 'Svelte • API REST • SQL • JWT • EVM',
 		'home.p_work':
 			'My work is guided by a concern for <strong>details</strong>, compliance with <strong>standards</strong> and <strong>best practices</strong>, particularly in terms of accessibility, to make the web more <strong>inclusive</strong>.',
@@ -36,12 +36,12 @@ export const locales = {
 	fr: {
 		'language.version': 'version française',
 		// global information
-		'global.title': 'Pierre, dev web',
+		'global.title': 'Pierre, Dev Web',
 		// navigation items
 		'nav.portfolio': 'Portfolio',
 		'nav.contact': 'Contact',
 		// home
-		'home.title': 'Développeur web',
+		'home.title': 'Svelte • API REST • SQL • JWT • EVM',
 		'home.description': 'Pierre Murillo est développeur web',
 		'home.h1': 'Je suis Pierre, développeur web',
 		'home.h2': 'Svelte • API REST • SQL • JWT • EVM',
