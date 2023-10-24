@@ -12,13 +12,16 @@
 	</div>
 </div>
 <p>
-	{@html $l('home.p1')}
+	{@html $l('home.p_work')}
 </p>
 <p>
-	{@html $l('home.p2')}
+	{@html $l('home.p_front')}
 </p>
 <p>
-	{$l('home.p3')}
+	{@html $l('home.p_steps')}
+</p>
+<p>
+	{@html $l('home.p_contact')}
 	<a href="/{$language}/contact" class="logo stabilo">{$l('home.contact')}</a>
 </p>
 
