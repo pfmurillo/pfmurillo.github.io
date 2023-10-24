@@ -15,7 +15,7 @@ export const locales = {
 		'home.p_work':
 			'My work is guided by a concern for <strong>details</strong>, compliance with <strong>standards</strong> and <strong>best practices</strong>, particularly in terms of accessibility, to make the web more <strong>inclusive</strong>.',
 		'home.p_front':
-			'I integrate sober and elegant <strong>mobile first</strong> interfaces using the latest technologies, including the <strong>Svelte</strong> framework, in which I specialise.',
+			'I integrate sober and elegant <strong>mobile first</strong> interfaces using the latest technologies, including the <strong>Svelte</strong> framework in which I specialise.',
 		'home.p_steps':
 			"Whatever your project, I'm here to support you every step of the way: from the <strong>design</strong> and <strong>development</strong> to the <strong>hosting</strong> of your application.",
 		'home.p_contact': "If you have any questions, please don't hesitate to",
@@ -50,7 +50,7 @@ export const locales = {
 		'home.p_work':
 			"Mon travail est guidé par le souci du <strong>détail</strong>, le respect des <strong>standards</strong> et des <strong>bonnes pratiques</strong>, notamment en terme d'accessibilité, pour un web plus <strong>inclusif</strong>.",
 		'home.p_front':
-			"J'intègre des interfaces <strong>mobile first</strong>, sobres et élégantes en utilisant les dernières technologies, dont le framework <strong>Svelte</strong>, dans lequel je me suis spécialisé.",
+			"J'intègre des interfaces <strong>mobile first</strong>, sobres et élégantes en utilisant les dernières technologies, dont le framework <strong>Svelte</strong> dans lequel je me suis spécialisé.",
 		'home.p_steps':
 			"Quel que soit votre projet, je suis là pour vous accompagner à chaque étape : de la <strong>conception</strong> et du <strong>développement</strong> à l'<strong>hébergement</strong> de votre application. ",
 		'home.p_contact': 'Je suis à votre disposition si vous avez la moindre question :',
