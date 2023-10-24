@@ -31,7 +31,7 @@
 
 <svelte:head>
 	<title>{pageTitle}</title>
-	<meta name="description" value={pageDescription} />
+	<meta name="description" content={pageDescription} />
 </svelte:head>
 
 <header>
