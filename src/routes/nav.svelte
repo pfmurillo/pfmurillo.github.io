@@ -28,7 +28,9 @@
 		class="logo stabilo"
 		aria-current={pageName === 'home' ? 'page' : false}>{$l('global.title')}</a
 	>
-	<button on:click|preventDefault={toggleNav} class:shown />
+	{#if screenSize <= 680}
+		<button on:click|preventDefault={toggleNav} class:shown aria-label="Toggle Navigation" />
+	{/if}
 	{#if screenSize > 680 || shown}
 		<ul transition:slide>
 			<li>
