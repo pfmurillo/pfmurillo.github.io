@@ -1,6 +1,7 @@
 <script>
 	export let pageName;
 	import { l, language } from '$lib/i18n';
+	import { onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
 	let screenSize;
 	let shown = false;
@@ -10,6 +11,13 @@
 	const closeNav = () => {
 		shown = false;
 	};
+	onMount(() => {
+		document.addEventListener('click', (e) => {
+			if (!document.querySelector('nav').contains(e.target)) {
+				closeNav();
+			}
+		});
+	});
 </script>
 
 <svelte:window bind:innerWidth={screenSize} />
