@@ -30,7 +30,8 @@ export const locales = {
 		'contact.h1': 'Get in touch!',
 		'contact.p':
 			"I currently live in <strong>Paris</strong>, France, and I'm also available for <strong>remote</strong> work. Please do not hesitate to send me an email or call me directly to discuss your project:",
-		'contact.h2': 'My vCard'
+		'contact.h2': 'My vCard',
+		'contact.download': 'click to download'
 	},
 	fr: {
 		'language.version': 'version française',
@@ -64,6 +65,7 @@ export const locales = {
 		'contact.h1': 'Contact',
 		'contact.p':
 			"Je vis actuellement à <strong>Paris</strong> en France et je suis également disponible pour tout travail <strong>remote</strong>. N'hésitez pas à m'envoyer un email ou m'appeler directement pour que nous discutions de votre projet&nbsp;:",
-		'contact.h2': 'Ma vCard'
+		'contact.h2': 'Ma vCard',
+		'contact.download': 'cliquez pour télécharger'
 	}
 };
