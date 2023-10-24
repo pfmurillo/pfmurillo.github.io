@@ -34,10 +34,9 @@ header {
     z-index: 2;
 }
 
-
-
 .logo {
     font-size: 1.6rem;
+    display: inline-block !important;
 }
 
 h1,
@@ -46,7 +45,7 @@ h2,
     font-family: 'Lexend';
     color: var(--accent-color) !important;
     text-shadow: 4px 2px var(--text-shadow);
-    display: inline-block;
+    display: block;
     padding: 8px 16px;
 }
 
