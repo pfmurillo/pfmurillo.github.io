@@ -2,49 +2,41 @@
 	import { l } from '$lib/i18n';
 
 	const imageFolder = '/images/portfolio/';
-	const images = [
+	const projects = [
 		{
-			name: 'shrks-app.jpg',
-			alt: 'Shrks',
 			title: 'Shrks',
-			href: 'https://web.shrks.app',
+			image: 'shrks-app.jpg',
 			resume:
-				'Tournois de billard dans les bars, disponible en application web, sur Google Play et Apple Store '
+				'Tournois de billard dans les bars, disponible en application web, sur Google Play et Apple Store'
 		},
 		{
-			name: 'light-cone.jpg',
-			alt: 'Light Cone',
 			title: 'Light Cone',
-			href: 'https://lightcone.org',
-			resume: 'Distributeur de films de cinéma expérimental'
+			image: 'light-cone.jpg',
+			resume:
+				'Distributeur de films œuvrant pour la conservation et la diffusion du cinéma expérimental'
 		},
 		{
-			name: 'andre-lhote.jpg',
-			alt: 'Le site de André Lhote',
 			title: 'André Lhote',
-			href: 'https://andre-lhote.org',
-			resume: 'Artiste peintre'
+			image: 'andre-lhote.jpg',
+			resume:
+				"Association pour la promotion, la sauvegarde de l'œuvre et de la mémoire du peintre André Lhote"
 		},
 		{
-			name: 'christian-daninos.jpg',
-			alt: 'Christian Daninos',
 			title: 'Christian Daninos',
-			href: 'https://christiandaninos.com',
-			resume: 'Plasticien'
+			image: 'christian-daninos.jpg',
+			resume:
+				"Commémoration de l'œuvre de l'artiste et plasticien Christian Daninos pour les 30 ans de sa disparition"
 		},
 		{
-			name: 'maison-dodue.jpg',
-			alt: 'Le site de Maison Dodue',
 			title: 'Maison Dodue',
-			href: 'https://maisondodue.com',
+			image: 'maison-dodue.jpg',
 			resume: "Tapissier d'ameublement engagé et responsable à Paris"
 		},
 		{
-			name: 'le-roman-des-voyageuses.jpg',
-			alt: 'Le roman des voyageuses',
 			title: 'Le roman des voyageuses',
-			href: 'https://leromandesvoyageuses.fr',
-			resume: 'Autrice'
+			image: 'le-roman-des-voyageuses.jpg',
+			resume:
+				"L'auteure Françoise Lapeyre ouvre une large fenêtre sur les écrits et les pratiques des voyageuses françaises au XIXe siècle"
 		}
 	];
 </script>
@@ -52,9 +44,9 @@
 <h1>{$l('portfolio.h1')}</h1>
 <p>{$l('portfolio.p')}</p>
 <div id="gallery">
-	{#each images as { name, alt, title, href, resume }}
+	{#each projects as { title, image, resume }}
 		<div class="galleryItem">
-			<img src={imageFolder + name} {alt} class="illustration" />
+			<img src={imageFolder + image} alt={title} class="illustration" />
 			<div class="description">
 				<span class="title">{title}</span>
 				<p class="resume">{resume}</p>
