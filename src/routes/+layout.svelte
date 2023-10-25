@@ -1,7 +1,6 @@
 <script>
 	import Nav from './nav.svelte';
 	import Footer from './footer.svelte';
-	import { onNavigate } from '$app/navigation';
 	import { page } from '$app/stores';
 	import { l, defaultLanguage, language } from '$lib/i18n';
 	$: $language = $page.data.language ?? defaultLanguage;
@@ -17,16 +16,6 @@
 		pageTitle = $l('global.title') + ' - ' + $l(`${pageName}.title`);
 		pageDescription = $l(`${pageName}.description`);
 	}
-
-	onNavigate((navigation) => {
-		if (!document.startViewTransition) return;
-		return new Promise((resolve) => {
-			document.startViewTransition(async () => {
-				resolve();
-				await navigation.complete;
-			});
-		});
-	});
 </script>
 
 <svelte:head>
