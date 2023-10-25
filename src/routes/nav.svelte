@@ -5,7 +5,6 @@
 	import { slide } from 'svelte/transition';
 	let shown = false;
 	let screenSize;
-	$: smallDevice = screenSize < 680 ? true : false;
 	const toggleNav = () => {
 		shown = !shown;
 	};
@@ -30,10 +29,8 @@
 		class="logo stabilo"
 		aria-current={pageName === 'home' ? 'page' : false}>{$l('global.title')}</a
 	>
-	{#if smallDevice}
-		<button on:click|preventDefault={toggleNav} class:shown aria-label="Toggle Navigation" />
-	{/if}
-	{#if !smallDevice || shown}
+	<button on:click|preventDefault={toggleNav} class:shown aria-label="Toggle Navigation" />
+	{#if !screenSize >= 680 || shown}
 		<ul transition:slide>
 			<li>
 				<a
