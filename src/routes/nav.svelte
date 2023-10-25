@@ -30,7 +30,7 @@
 		aria-current={pageName === 'home' ? 'page' : false}>{$l('global.title')}</a
 	>
 	<button on:click|preventDefault={toggleNav} class:shown aria-label="Toggle Navigation" />
-	{#if !screenSize >= 680 || shown}
+	{#if screenSize >= 680 || shown}
 		<ul transition:slide>
 			<li>
 				<a
